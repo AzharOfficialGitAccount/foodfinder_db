@@ -40,8 +40,8 @@ app.get('/', (req, res) => {
   res.send('Your server is working now');
 });
 
-const Port = process.env.Port || 3000;
+const Port = process.env.Port || 2021;
 app.listen(Port, () => {
   // console.log(api);
-  console.log('server is running http://localhost:3000');
+  console.log('server is running http://localhost:2021');
 });
